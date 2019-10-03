@@ -1,0 +1,57 @@
+When we type a certain thing then what the customer expects will determine on three factors -> 
+1) His origin. 
+2) His interest. eg - if he is an Electrician -> Battery would mean the normal battery. 
+								  Chemistry Guy -> It would mean a chemical setup for converting energy and all. 
+3) His activities in the past. What he has been searching and googling. 
+4) Once he gets the search results. Does he make a search again? With a different terms and modifying the basic query? 
+
+
+The same qualities that make natural language such a rich tool for human communi‐cation also make it difficult to parse using deterministic rules.								 
+
+The main target is to make a model and generalise it so that it does not only perform well on the test data but also the unclassified data too. 
+Like -> try to eliminate over-fitting and under-fitting in the model that you are making. 
+
+Models can be trained and retrained again and again to fit in more and more data and target more audience. 
+These can also be made customised one per user. This will allow studying one user individually and then making the predictions about him. 
+
+
+
+
+When it comes to applying Machine Learning on Text -> 
+Python has a number of libraries for the same !! 
+The ones that can be used here are : 
+
+1) Scikit-Learn -> it provides a single interface to many regression, classification, clustering, and dimensionality reduction models along with utilities for cross-validation and hyperparameter tuning.
+2) NLTK -> Natural Language ToolKit. It can help us in our project for the text analysis of the data. In a variety of languages too (Additional). 
+3) Genism -> Unsupervised Sematic modelling of text can be done using this. Also includes other unsupervised library like word2vec.
+4) sPacy -> spaCy focuses on preprocessing text for deep learning or to build information extraction or natural language understanding systems on large volumes of text.
+5) NetworkX -> NetworkX is a graph analytics pacakge. If we find any of the parts involving some graph kind of relations and all, we make use of this stuff right here. Like making some nodes and then traversing to find some relationship among them, then this is the one we have to make use of.
+6) YellowBrick -> Yellowbricks provides intuitive and understandable visualizations of feature selection, modeling, and hyperparameter tuning, steering the model selection process to find the most effective models of text data.
+
+How to deploy models trained on text on inside of a software applications. 
+
+------------------------------------------------------------------------------------------------------------------------
+ONE GITHUB REPOSITORY THAT WE CAN FORK IS :- https://github.com/foxbook/atap
+------------------------------------------------------------------------------------------------------------------------
+
+
+DATA PRODUCTS : These are the application that derive the results from data and then feed in more values to the data set already there. 
+
+SIGNIFICANT COLLOCATIONS :- Words that tend to appear together. Like -> Udupi along with that temple, restaurant and all will occur more frequently. 
+
+
+TAGS - Identify the properties of the content that is available there. This can be used to group similar items together. And segregate them separately. YouTube, Netflix, Blah Blah uses this feature to determine what is showed to the user of the account. 
+
+eg:- Google Smart Reply uses the suggestions to fill in or predict what you might be wanting to say to the other person. And then suggest in auto complete mode to fill the stuff completely. 
+
+Transcription is like converting one form of data to another for some or the other task. 
+Voice Transcription is what is desired from us in the Rakuten thing. 
+
+------------------------------------------------------------------------------------------------------------------------
+
+Classifying text with specific labels into meaningful groups.
+
+Computation can take many forms -> from simple SQL Queries to Jupyter Notebooks, to clustering using Spark.
+
+
+

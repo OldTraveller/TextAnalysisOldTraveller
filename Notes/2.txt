@@ -1,0 +1,97 @@
+Whatever data that we have with us has to be converted to ingested corpus. 
+
+MODEL SELECTION TRIPLE :- 
+1) Feature Engineering.
+2) Algorithm Selection.
+3) Hyperparameter Tuning. 
+
+Because we are not accustomed to thinking of language as data, primary challenge of text analysis is determining what is 
+happening during each transformations. 
+
+The kind of language that we understand is quite different that we use to make the computer understand. 
+As we go throught the successive iterations of the processess the data becomes less and less readable format. 
+
+------------------------------------------------------------------------------------------------------------------
+LANGUAGE AS DATA 
+------------------------------------------------------------------------------------------------------------------
+Language is un-structured data that is been produced by people to be understood by other people.
+Structured and Semistructured data is readily available to be processed and understood by the computer system or the Model
+ that we are operating on. 
+
+Machine Learning allows us to train statistical models on language as it changes.
+
+Perplexity is the measure of how predictable the text is by evaluating it's entropy of the language models probability
+ distribution. 
+
+What exactly is the difference between a low entropy and a high entropy is the likeliness of occurence of the stuff when 
+one stuff is specified. 
+eg:- Betty bought a bit of ....... -> We automatically complete is using Butter because it is most likely to complete the
+ sentence since we have encountered it a numerous times. 
+			whereas 
+Saying -> I am going out to dinner with my ......... ( can be compelted with absouloutely anything. So has a high entropy.
+ Can change drastically. Can be friend. Can be parents. Can be school mates. we cannot predict ) 
+
+------------------------------------------------------------------------------------------------------------------
+
+The first step is the identification of features that can be used to predict the data :- 
+If we write apple or apppple or something like that -> What can it be is the question. So we need to get the attribute or 
+the classification of the object into a well defined something. 
+
+The text data allows us to dig data at a shallow level by using String Splitting or also using the deeper levels. 
+
+------------------------------------------------------------------------------------------------------------------
+SENTIMENTAL ANALYSIS has to be applied in the stuff beacuse the tone of the sentence can carry a lot of meaning to it. 
+which can lead to more accurate results.
+
+A very naive technique is to use the same technique in the code that I have written for genderising. 
+Like count the number of happy words and count the number of unhappy words. Then see the percentages of the words. 
+How many time happy occurs and how many times sad words occurs. Then categorise the sentence to be one of those. 
+However this often produces very inaccurate results. 
+------------------------------------------------------------------------------------------------------------------
+
+Sentiment analysis is fundamentally different from gender classification because sen‐
+timent is not a language feature, but instead dependent on word sense; for example,
+“that kick flip was sick” is positive whereas “the chowder made me sick” is negative,
+and “I have a sick pet iguana” is somewhat ambiguous—the definition of the word
+“sick” in these examples is changing. Moreover, sentiment is dependent on context
+even when definitions remain constant; “bland” may be negative when talking about
+hot peppers, but can be a positive term when describing cough syrup. Finally, unlike
+gender or tense, sentiment can be negated: “not good” means bad. Negation can flip
+the meaning of large amounts of positive text; “I had high hopes and great expecta‐
+tions for the movie dubbed wonderful and exhilarating by critics, but was hugely dis‐
+appointed.” Here, though words typically indicating positive sentiment such as “high
+hopes,” “great,” “wonderful and exhilarating,” and even “hugely” outnumber the sole
+negative sentiment of “disappointed,” the positive words not only do not lessen the
+negative sentiment, they actually enhance it.
+
+------------------------------------------------------------------------------------------------------------------
+
+If “with‐draw money at the bank” contributes a lot of information to the sense of “bank,” so
+does “fishing by the river bank.” This is called n-gram analysis, where n specifies a
+ordered sequence of either characters or words to scan on (e.g., a 3-gram is ('with
+draw', 'money', 'at') as opposed to the 5-gram ('withdraw', 'money', 'at',
+'the', 'bank') ). n-grams introduce an interesting opportunity because the vast
+majority of possible n-grams are nonsensical (e.g., ('bucket', 'jumps', 'fire
+works') ), though the evolving nature of language means that even that 3-gram could
+eventually become sensical!
+
+------------------------------------------------------------------------------------------------------------------
+Semantics refer to meaning; they are deeply encoded in language and difficult to
+extract.
+Syntax refers to sentence formation rules usually defined by grammar.
+Morphology refers to the form of things, and in text analysis, the form of individual
+words or tokens.
+Morphology is challenging because most languages have many
+exceptions and special cases. English punctuation, for instance, has both ortho‐
+graphic rules, which merely adjust the ending of a word (puppy - puppies), as well as
+morphological rules that are complete translations (goose - geese).
+
+
+Semantics, syntax, and morphology allow us to add data to simple text strings with
+linguistic meaning.
+
+------------------------------------------------------------------------------------------------------------------
+OUR DAY TO DAY LIFE IS FILLED WITH NATURAL LANGUAGE AND THE LANGUAGE AWARE PRODUCTS. 
+Hence making the processing of such information is important. 
+
+------------------------------------------------------------------------------------------------------------------

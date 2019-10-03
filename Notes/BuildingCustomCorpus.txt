@@ -1,0 +1,25 @@
+------------------------------------------------------------------------------------------------------------------
+Feature Analysis :
+Which part of the text will be conveying and providing meaning to our model.
+Which part, dimension, property of our stuff is conveying meaning. 
+------------------------------------------------------------------------------------------------------------------
+What Is a Corpus?
+Corpora are collections of related documents that contain natural language.
+------------------------------------------------------------------------------------------------------------------
+Corpora can be annotated, meaning that the text or documents are labeled
+with the correct responses for supervised learning algorithms.
+------------------------------------------------------------------------------------------------------------------
+Domain specific corpus are usually the best trained ones. 
+And they perform better in the field for the same application than the generalised corpus. 
+Number of corpuses are available -> Brown corpus, Wikipedia corpus etc. 
+------------------------------------------------------------------------------------------------------------------
+
+The corpuses which are meant for a particular field often perform better because. They are specific the domain. 
+Otherwise general corpuses collect data from multiple sources and hence is not accurate for any one field. 
+
+------------------------------------------------------------------------------------------------------------------
+A framework for ingestion engine called BALEEN is used for construction of domain specific corpora for applied text analysis. 
+
+We need to build a corpus. for the specific domain that we are targeting. Application specific corpus reader. 
+
+
